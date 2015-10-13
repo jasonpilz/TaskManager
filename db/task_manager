@@ -9,4 +9,10 @@ tasks:
 - id: 3
   title: Mow the lawn
   description: "Front and back\r\n"
-total: 3
+- id: 4
+  title: Wash car
+  description: May as well wash it when done!
+- id: 6
+  title: Survive Today
+  description: Drink water, eat, don't piss off too many people.
+total: 6
