@@ -1,8 +1,5 @@
 ---
 tasks:
-- id: 2
-  title: Get cookies
-  description: I want the chocolate chip
 - id: 3
   title: Mow the lawn
   description: "Front and back\r\n"

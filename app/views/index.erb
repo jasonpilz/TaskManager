@@ -2,9 +2,9 @@
   <h1>All Tasks</h1>
 </div>
 <div class="container">
-  <table class="table table-striped">
+  <table class="table table-striped" id="task-table">
     <% @tasks.each do |task| %>
-    <tr>
+    <tr id="row_<%= task.id %>">
       <td><%= task.id %>: <a href="/tasks/<%= task.id %>"><%= task.title %></a></td>
       <td><a href="/tasks/<%= task.id %>/edit">Edit</a></td>
       <td>
